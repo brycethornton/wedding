@@ -1,12 +1,13 @@
 ---
 environment: production
-chdir: /var/www/wedding
+chdir: /var/www/wedding/current
 address: 127.0.0.1
 user: root
 group: root
 port: 4567
-pid: /var/www/wedding/thin.pid
-log: /var/www/wedding/thin.log
+pid: /var/www/wedding/current/thin.pid
+log: /var/www/wedding/current/thin.log
+rackup: /var/www/wedding/current/config/config.ru
 max_conns: 1024
 timeout: 30
 max_persistent_conns: 512
