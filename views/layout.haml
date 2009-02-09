@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %title Alex & Bryce's Wedding - June 6th, 2009
+    %link{:href => '/main.css', :rel => 'stylesheet', :type => 'text/css'}
+  %body
+    %h1 The Gulacy-Thornton Wedding
+    #tabs
+      %a{:href => '/'}Home
+      %a{:href => '/directions'}Directions
+      %a{:href => '/hotel'}Hotel
+      %a{:href => '/attendants'}Attendants
+      %a{:href => '/activities'}Activities
+      %a{:href => '/photos'}Photos
+      %a{:href => '/registry'}Registry
+      %a{:href => '/contact'}Contact
+    %br
+    #main
+      #content= yield
