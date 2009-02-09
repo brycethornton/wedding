@@ -6,7 +6,6 @@ user: root
 group: root
 port: 4567
 pid: /var/www/wedding/thin.pid
-rackup: /var/www/wedding/config/config.ru
 log: /var/www/wedding/thin.log
 max_conns: 1024
 timeout: 30
