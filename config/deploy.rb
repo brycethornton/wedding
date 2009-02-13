@@ -49,11 +49,11 @@ namespace :deploy do
 
   desc "Restart Application"
   task :restart do
-    run "thin restart -C #{current_release}/config/thin.yml -R #{current_release}/config/config.ru"
+    run "thin restart -C #{current_release}/config/thin.yml -R #{current_release}/config.ru"
   end
 
   desc "Start Application"
   task :start do
-    run "thin start -C #{current_release}/config/thin.yml -R #{current_release}/config/config.ru"
+    run "thin start -C #{current_release}/config/thin.yml -R #{current_release}/config.ru"
   end
 end
