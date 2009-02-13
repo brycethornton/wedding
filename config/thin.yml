@@ -5,9 +5,9 @@ address: 127.0.0.1
 user: root
 group: root
 port: 4567
-pid: /var/www/wedding/current/thin.pid
-log: /var/www/wedding/current/thin.log
-rackup: /var/www/wedding/current/config/config.ru
+pid: /var/www/wedding/current/log/thin.pid
+log: /var/www/wedding/current/log/thin.log
+rackup: /var/www/wedding/current/config.ru
 max_conns: 1024
 timeout: 30
 max_persistent_conns: 512
