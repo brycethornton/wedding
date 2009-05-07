@@ -32,6 +32,7 @@ role :db,       "bryceandalex2009.com", :primary => true
 set :deploy_to, "/var/www/wedding"
 set :use_sudo, false
 set :deploy_via, :remote_cache
+ssh_options[:port] = 1222
 
 # =============================================================================
 # TASKS
